@@ -33,3 +33,24 @@ def mostra_nomes_2_e_3():
     print("3 => ", nomes[3])
 
 mostra_nomes_2_e_3()
+
+# 4. Crie uma função que pede 3 nomes de alimentos digitado pelo usuário e substitui os elementos do array [“Macarrão”, “Pepino”, “Batata”] com esses 3 alimentos. Imprima o nome dos alimentos um abaixo do outro. Ao final faça um commit no GitHub.
+
+# array_inicial = [“Macarrão”, “Pepino”, “Batata”]
+
+# Exemplo de entrada: Arroz, Feijão, Farinha Exemplo de saída: 1 – Arroz 2 - Feijão 3 – Farinha
+
+def nomes_de_comida():
+    comidas = ["Macarrão", "Pepino", "Batata"]
+    comida1 = input("Digite o nome de uma comida: ")
+    comidas[0] = comida1
+    comida2 = input("Digite o nome de uma comida: ")
+    comidas[1] = comida2
+    comida3 = input("Digite o nome de uma comida: ")
+    comidas[2] = comida3
+
+    print("Comida 1: ", comidas[0])
+    print("Comida 2: ", comidas[1])
+    print("Comida 3: ", comidas[2])
+
+nomes_de_comida()
