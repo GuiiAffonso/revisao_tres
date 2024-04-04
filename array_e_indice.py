@@ -18,7 +18,18 @@ mostra_nomes()
 
 def mostra_nome_especifico():
     nomes = ["Tatiana", "Lorane", "Otávio", "Gabriel"]
-    print("2 -> ", nomes[0])
+    print("1 -> ", nomes[0])
     print("4 -> ", nomes[3])
 
-mostra_nome_especifico
+mostra_nome_especifico()
+
+# 3. Crie uma função que declara um array com 4 nomes diferentes e imprime o conteúdo do segundo e terceiro índice do array. Ao final faça um commit no GitHub.
+
+# Exemplo de entrada: Nenhuma Exemplo de saída: 2-Maria 3-Fulano
+
+def mostra_nomes_2_e_3():
+    nomes = ["Gabriela", "Marta", "Guilherme", "Mario"]
+    print("2 => ", nomes[1])
+    print("3 => ", nomes[3])
+
+mostra_nomes_2_e_3()
