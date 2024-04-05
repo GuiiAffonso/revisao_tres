@@ -27,3 +27,32 @@ def contador_personalizado():
         print(i)
 
 # contador_personalizado()
+
+# 7. Crie uma função que imprime a tabuada de adição do número 2. Ao final faça um commit no GitHub.
+
+# Entrada: Nenhuma Exemplo de saída:
+
+# 2 + 1 = 3 2 + 2 = 4 2 + 3 = 5 2 + 4 = 6
+
+#Solução while:
+
+def tabuada_de_soma():
+    numero_escolhido = 10
+
+    cont = 0
+    soma = 2
+    while (cont <= numero_escolhido):
+        resultado = cont + soma
+        print(cont, "+", soma, "=", resultado)
+        cont = cont + 1
+
+# tabuada_de_soma()
+
+# Solução for:
+
+def tabuada_de_soma():
+
+    for i in range(i = 0, i <= 10, i = 1):
+        print(i)
+
+# tabuada_de_soma()
