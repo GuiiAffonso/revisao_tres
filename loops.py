@@ -50,9 +50,40 @@ def tabuada_de_soma():
 
 # Solução for:
 
-def tabuada_de_soma():
+# def tabuada_de_soma():
 
-    for i in range(i = 0, i <= 10, i = 1):
-        print(i)
+#     for i in range(i = 0, i <= 10, i = 1):
+#         print(i)
 
 # tabuada_de_soma()
+
+# 8. Crie uma função que imprime a tabuada de multiplicação de um número digitado pelo usuário. Ao final faça um commit no GitHub.
+
+# Exemplo de entrada: 3 Exemplo de saída:
+
+# 3 x 1 = 3 3 x 2 = 6 3 x 3 = 9
+
+#Solução while:
+
+def tabuada_multiplicacao():
+    numero_escolhido = int(input("Digite o númro a ser multiplicado: "))
+
+    cont = 0
+    while (cont <= 10):
+        resultado = cont * numero_escolhido
+        print(numero_escolhido, "*", cont, "=", resultado)
+        cont = cont + 1
+
+# tabuada_multiplicacao()
+
+# Solução for:
+
+def tabuada__de_multiplicacao():
+    num_multiplicador = int(input("Digite o númro a ser multiplicado: "))
+    multiplicando = 0
+
+    for multiplicando in range(0, 10, 1):
+        resultado = multiplicando * num_multiplicador
+        print(num_multiplicador, "*", multiplicando, "=", resultado)
+
+# tabuada__de_multiplicacao()
