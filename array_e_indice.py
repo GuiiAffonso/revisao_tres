@@ -5,6 +5,7 @@
 # 1-João 2-Maria 3-Fulano 4-Ciclano
 def mostra_nomes():
     nomes = ["João", "Maria", "Fulano", "Ciclano"]
+    
     print("1 -", nomes[0])
     print("2 -", nomes[1])
     print("3 -", nomes[2])
@@ -18,6 +19,7 @@ mostra_nomes()
 
 def mostra_nome_especifico():
     nomes = ["Tatiana", "Lorane", "Otávio", "Gabriel"]
+
     print("1 -> ", nomes[0])
     print("4 -> ", nomes[3])
 
@@ -29,6 +31,7 @@ mostra_nome_especifico()
 
 def mostra_nomes_2_e_3():
     nomes = ["Gabriela", "Marta", "Guilherme", "Mario"]
+
     print("2 => ", nomes[1])
     print("3 => ", nomes[3])
 
@@ -42,10 +45,13 @@ mostra_nomes_2_e_3()
 
 def nomes_de_comida():
     comidas = ["Macarrão", "Pepino", "Batata"]
+
     comida1 = input("Digite o nome de uma comida: ")
     comidas[0] = comida1
+
     comida2 = input("Digite o nome de uma comida: ")
     comidas[1] = comida2
+
     comida3 = input("Digite o nome de uma comida: ")
     comidas[2] = comida3
 
